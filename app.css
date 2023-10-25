@@ -1,31 +1,31 @@
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-    h1 {
-        font-size: 40px;
-        color: #ff0000;
-        font-family: 'Lobster', cursive;
-    }
-    p {
-        color: black; font-family:sans-serif; margin: 0; padding: 10px;
-    }
-    span { 
-        margin-left: 0%; 
-    }
-    .container {
-        display: flex; /* Hace que los elementos hijos se muestren en línea */
-        flex-direction: row; /* Los elementos se alinearán en fila horizontal */
-        justify-content: center; /* Centra los elementos horizontalmente */
-        align-items: center; /* Centra los elementos verticalmente */
-    }
-    .canvas-container {
-        display: flex;
-        align-items: center;
-        height: 10vh;
-    }
-    canvas {
-        cursor: crosshair; 
-        width: 1360px; 
-        height: 650px; 
-        border: 2px solid #808080; 
-        margin: auto; 
-        background-color: white;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1 {
+    font-size: 40px;
+    color: #ff0000;
+    font-family: 'Lobster', cursive;
+}
+p {
+    color: black; font-family:sans-serif; margin: 0; padding: 10px;
+}
+span { 
+    margin-left: 0%; 
+}
+.container {
+    display: flex; /* Hace que los elementos hijos se muestren en línea */
+    flex-direction: row; /* Los elementos se alinearán en fila horizontal */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+.canvas-container {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+canvas {
+    cursor: crosshair; 
+    width: 1360px; 
+    height: 650px; 
+    border: 2px solid #808080; 
+    margin: auto; 
+    background-color: white;
+}
